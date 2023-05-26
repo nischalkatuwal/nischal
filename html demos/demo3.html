@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moving Text Example</title>
+    <style>
+        .moving-text {
+            animation: moveText 2s linear infinite;
+        }
+
+        @keyframes moveText {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(200px); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="moving-text">Hello, I am moving!</div>
+</body>
+</html>
